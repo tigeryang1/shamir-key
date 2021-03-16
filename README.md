@@ -1,6 +1,5 @@
 # Shamir's Secret Sharing
-
-Write a CLI program that creates an RSA key pair and shards the private key into k of n shares using Shamir's secret sharing algorithm. The app should be able to re-create the private key if 2 of n shares are presented. 
+App that creates an RSA key pair and shards the private key into k of n shares using Shamir's secret sharing algorithm. The app should be able to re-create the private key if 2 of n shares are presented. 
 
 The program should write the public key to a text file called Public.TXT, and the private key shards to text files called Shard[k].TXT.
 
