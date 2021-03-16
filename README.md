@@ -3,7 +3,7 @@ App that creates an RSA key pair and shards the private key into k of n shares u
 
 The program should write the public key to a text file called Public.TXT, and the private key shards to text files called Shard[k].TXT.
 
-Demonstrate that the program works correctly, by creating a unit test that:
+Demonstrate that the program:
 
 Creates the RSA key pair with a Private Key broken into 5 shards.
 Encrypts a random plain text string using the RSA Public Key.
